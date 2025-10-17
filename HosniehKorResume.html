@@ -7,98 +7,68 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #0a0f1e 0%, #1a1f2e 100%);
-      color: #e4e6eb;
+      background-color: #0f172a; /* Deep navy */
+      color: #e5e7eb; /* Light text */
       line-height: 1.6;
     }
-
     .container {
       max-width: 900px;
       margin: 2rem auto;
       padding: 2rem;
-      background: rgba(25, 30, 45, 0.85);
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-      border-radius: 12px;
-      backdrop-filter: blur(10px);
+      background: #1e293b; /* Dark slate background */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
     }
-
     h1, h2 {
-      color: #69a6ff;
-      margin-bottom: 0.5rem;
+      color: #60a5fa; /* Soft blue accent */
     }
-
-    h1 {
-      font-size: 2rem;
-      border-bottom: 2px solid #69a6ff;
-      padding-bottom: 0.3rem;
-    }
-
-    .contact {
-      font-size: 0.95em;
-      color: #aeb4c2;
-      margin-bottom: 20px;
-    }
-
-    .contact a {
-      text-decoration: none;
-      color: #82c7ff;
-      transition: color 0.2s;
-    }
-
-    .contact a:hover {
-      color: #cce3ff;
-    }
-
     .section {
-      margin-bottom: 30px;
+      margin-bottom: 2rem;
     }
-
-    .job-title {
-      font-weight: 600;
-      color: #ffffff;
-      margin-top: 20px;
+    .contact-info a {
+      color: #93c5fd;
+      text-decoration: none;
     }
-
-    .company-date {
-      font-style: italic;
-      color: #9aa2b8;
-      margin-bottom: 10px;
-    }
-
     ul {
       margin: 0;
       padding-left: 20px;
     }
-
+    .contact a {
+      text-decoration: none;
+      color: #93c5fd;
+    }
+    .contact {
+      font-size: 0.95em;
+      color: #cbd5e1;
+      margin-bottom: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .job-title {
+      font-weight: 600;
+      margin-top: 20px;
+      color: #ffffff;
+    }
+    .company-date {
+      font-style: italic;
+      margin-bottom: 10px;
+      color: #94a3b8;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
     }
-
     td {
-      padding: 6px 12px 6px 0;
+      padding: 4px 12px 4px 0;
       vertical-align: top;
-      color: #d1d5e0;
+      color: #e2e8f0;
     }
-
     a:hover {
-      color: #9cd3ff;
-    }
-
-    /* Scrollbar Styling */
-    ::-webkit-scrollbar {
-      width: 10px;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #3B81F6;
-      border-radius: 6px;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: #1a1f2e;
+      color: #bfdbfe;
     }
   </style>
 </head>
@@ -112,24 +82,12 @@
       <a href="https://github.com/IHoKo" target="_blank">GitHub</a> |
       <a href="https://scholar.google.co.jp/citations?user=5EC3LNcAAAAJ&hl=en" target="_blank">Google Scholar</a>
     </div>
-
-    <div class="section">
-      <h2>Profile</h2>
-      <p>Dedicated professional with several years of experience transforming complex data into actionable insights. Passionate about building meaningful data products, using machine learning to uncover patterns, and creating models that drive business decisions. Skilled in clustering, predictive modeling, and data visualization, with a proven ability to collaborate across teams and align analytics with business objectives.</p>
-    </div>
-
-    <div class="section">
-      <h2>Career Highlights</h2>
-      <ul>
-        <li>Designed and deployed Azure-based AI solutions that automated sentiment analysis and member targeting, increasing marketing precision and reducing manual analytics time by 70% through end-to-end ML and NLP integration.</li>
-        <li>Contributed to a data-driven initiative that cut customer maintenance costs by 65%, using Python, Pandas, and survey analysis techniques to uncover failure patterns, identify maintenance pain points, and inform cost-saving strategies.</li>
-        <li>Developed and validated predictive models for steam trap failure detection, applying pattern recognition, historical trend analysis, and supervised learning techniques to surpass accuracy benchmarks and enhance preventive maintenance planning.</li>
-        <li>Collaborated with engineering and R&D teams to develop a cross-platform mobile application (Android, iOS) using Xamarin and C#, leveraging proprietary manufacturing data to recommend optimal valve selections and improve profitability.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Core Competencies</h2>
+    <div class="section"><h2>Profile</h2><p>Dedicated professional with several years of experience transforming complex data into actionable insights. Passionate about building meaningful data products, using machine learning to uncover patterns, and creating models that drive business decisions. Skilled in clustering, predictive modeling, and data visualization, with a proven ability to collaborate across teams and align analytics with business objectives.</p></div>
+    <div class="section"><h2>Career Highlights</h2><ul><li>Designed and deployed Azure-based AI solutions that automated sentiment analysis and member targeting, increasing marketing precision and reducing manual analytics time by 70% through end-to-end ML and NLP integration.</li>
+      <li>Contributed to a data-driven initiative that cut customer maintenance costs by 65%, using Python, Pandas, and survey analysis techniques to uncover failure patterns, identify maintenance pain points, and inform cost-saving strategies.</li>
+      <li>Developed and validated predictive models for steam trap failure detection, applying pattern recognition, historical trend analysis, and supervised learning techniques to surpass accuracy benchmarks and enhance preventive maintenance planning.</li>
+      <li>Collaborated with engineering and R&D teams to develop a cross-platform mobile application (Android, iOS) using Xamarin and C#, leveraging proprietary manufacturing data to recommend optimal valve selections and improve profitability.</li></ul></div>
+    <div class="section"><h2>Core Competencies</h2>
       <table>
         <tr>
           <td>Data Analysis</td>
@@ -150,62 +108,58 @@
           <td>End-to-End Data Solutions</td>
           <td></td>
           <td></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="section">
-      <h2>Professional Experience</h2>
-
-      <p class="job-title">Data Scientist – National Association of Realtors®</p>
+        </tr></table></div>
+    <div class="section"><h2>Professional Experience</h2><p class="job-title">Data Scientist – National Association of Realtors®</p>
       <p class="company-date">2024 – Present</p>
       <ul>
         <li>Developed and deployed predictive targeting models using XGBoost, LightGBM, and ensemble learning, integrated into production to identify high-potential members and increase program adoption rates.</li>
-        <li>Developed end-to-end NLP workflows using Azure AI Language and Azure Functions to automate sentiment analysis, text classification, and key theme extraction from large-scale member feedback.</li>
-        <li>Developed conversational AI prototypes using Azure AI Foundry and Copilot Studio, creating domain-specific chatbots for internal analytics support and customer engagement.</li>
-        <li>Designed and deployed interactive dashboards using Power BI and Plotly to visualize KPIs and improve decision-making for non-technical stakeholders.</li>
+        <li>Developed end-to-end NLP workflows using Azure AI Language and Azure Functions to automate sentiment analysis, text classification, and key theme extraction from large-scale member feedback, delivering actionable insights for marketing and product teams.</li>
+        <li>Developed conversational AI prototypes using Azure AI Foundry and Copilot Studio, creating domain-specific chatbots for internal analytics support and customer engagement use cases.</li>
+        <li>Designing and deploying interactive dashboards using Power BI and Plotly to visualize key performance indicators, streamlining decision-making for non-technical stakeholders, and improving the speed and clarity of reporting processes.</li>
       </ul>
 
       <p class="job-title">Data Analyst – TLV International Inc.</p>
       <p class="company-date">2018 – 2024</p>
       <ul>
-        <li>Developed a deep learning–based anomaly detection system for manufacturing sensor data, using CNNs and reinforcement learning to reduce issue resolution time by 70%.</li>
-        <li>Preprocessed time-series data using wavelet transforms to generate scalograms and improved classification accuracy via OpenCV-based image normalization.</li>
-        <li>Built predictive models in Python to detect steam trap failures, cutting maintenance costs by 65%.</li>
-        <li>Designed flexible dashboards in Tableau, Plotly, and Dash to support faster, data-driven decisions.</li>
-        <li>Built a cross-platform mobile app (Android & iOS) using Xamarin and C# to provide real-time valve recommendations.</li>
+        <li>Developed a deep learning–based anomaly detection system for manufacturing sensor data, using CNNs to extract features from scalogram plots and reinforcement learning to adapt anomaly thresholds in real time, resulting in a 70% reduction in issue resolution time across critical products.</li>
+        <li>Preprocessed time-series data using wavelet transforms to generate scalograms, capturing time–frequency patterns of signal anomalies. 
+          <ul>
+            <li>Utilized OpenCV to manipulate and normalize scalogram images (e.g., resizing, denoising, contrast adjustment) before feeding them into the CNN model to enhance feature consistency and improve classification accuracy</li>
+          </ul>
+        </li>
+        <li>Designed predictive models in Python to detect steam trap failures, leveraging time-series feature engineering and ensemble algorithms (e.g., XGBoost, random forest). Surpassed detection accuracy targets and reduced maintenance costs by 65%, significantly improving operational efficiency.</li>
+        <li>Designed flexible, user-friendly dashboards and data visualizations using Tableau, Plotly, and Dash to support faster, more informed decisions by non-technical stakeholders, while enabling self-service plotting tools that streamlined workflows and increased productivity.</li>
+        <li>Built a cross-platform mobile app (Android & iOS) using Xamarin and C# in collaboration with engineering and R&D teams to deliver on-site valve recommendations for field technicians.
+        <ul>
+           <li>Integrated manufacturing and maintenance data to recommend optimal valve configurations, improving equipment reliability and driving profitability.</li>
+          <li>Validated recommendations by analyzing historical performance data and benchmarking against market options using Python scripts.</li>
+          <li>Consolidated findings into a handbook detailing model logic, validation methods, and implementation guidelines for future scaling.</li>
+          </ul>
+        </li>
       </ul>
 
       <p class="job-title">Research Assistant – Keio University</p>
       <p class="company-date">2017 – 2018</p>
       <ul>
-        <li>Developed CFD simulation programs for modeling dynamic fluid flows and validated results against experimental data as part of cutting-edge research teams.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Ph.D. Mechanical Engineering</strong> – Keio University (Monbukagakusho Scholar)</li>
-        <li><strong>M.S. Aerospace Engineering</strong> – Azad University</li>
-        <li><strong>B.S. Aerospace Engineering</strong> – Azad University</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Additional Education & Certifications</h2>
-      <ul>
-        <li>IBM Data Engineering Professional Certificate</li>
-        <li>Certified Reviewer – Int. Journal for Numerical Methods in Fluids</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Technical Skills</h2>
-      <p>Python (Pandas, NumPy, Scikit-learn, Plotly, Dash, TensorFlow), C#, Fortran, SQL, Git, Xamarin, Microsoft SQL Server, Power BI, Microsoft Fabric, Azure AI Functions, Azure AI Foundry, Copilot Studio</p>
-    </div>
+        <li>Contributed to cutting-edge computational fluid dynamics (CFD) research by developing simulation programs to model dynamic fluid flows and moving boundary phenomena and validate results against experimental data.
+        <ul>
+          <li>Collaborated with cross-disciplinary teams to integrate simulation outputs into broader engineering research, while continuously adopting contemporary tools and methods in scientific computing.</li>
+        </ul>
+        </li>
+        
+      </ul></div>
+    <div class="section"><h2>Education</h2><ul>
+      <li><strong>Ph.D. Mechanical Engineering</strong> – Keio University (Monbukagakusho Scholar)</li>
+      <li><strong>M.S. Aerospace Engineering</strong> – Azad University</li>
+      <li><strong>B.S. Aerospace Engineering</strong> – Azad University</li>
+    </ul></div>
+    <div class="section"><h2>Additional Education & Certifications</h2><ul>
+      <li>IBM Data Engineering Professional Certificate</li>
+      <li>Certified Reviewer – Int. Journal for Numerical Methods in Fluids</li>
+    </ul></div>
+    <div class="section"><h2>Technical Skills</h2><p>Python (Pandas, NumPy, Scikit-learn, Plotly, Dash, TensorFlow), C#, Fortran, SQL, Git, Xamarin, Microsoft SQL Server, Microsoft Power BI, Microsoft Fabric, Azure AI Functions, Azure AI Foundry, Microsoft Copilot Studio</p></div>
   </div>
-
+</body>
   <script type="module">
     import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
     Chatbot.init({
@@ -213,60 +167,90 @@
         apiHost: "https://cloud.flowiseai.com",
         theme: {
             button: {
-                backgroundColor: '#69a6ff',
+                backgroundColor: '#3B81F6',
                 right: 20,
                 bottom: 20,
-                size: 54,
+                size: 48,
+                dragAndDrop: true,
                 iconColor: 'white',
                 customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
                 autoWindowOpen: {
                     autoOpen: true,
-                    openDelay: 2
+                    openDelay: 2,
+                    autoOpenOnMobile: false
                 }
             },
             tooltip: {
                 showTooltip: true,
-                tooltipMessage: 'Hi there 👋! Ask me about Hosnieh’s profile.',
-                tooltipBackgroundColor: '#1a1f2e',
-                tooltipTextColor: '#ffffff',
-                tooltipFontSize: 15
+                tooltipMessage: 'Hi There 👋!',
+                tooltipBackgroundColor: '#1e293b',
+                tooltipTextColor: 'white',
+                tooltipFontSize: 16
+            },
+            disclaimer: {
+                title: 'Disclaimer',
+                message: "By using this chatbot, you agree to the <a target=\"_blank\" href=\"https://flowiseai.com/terms\">Terms & Conditions </a>",
+                textColor: 'white',
+                buttonColor: '#3b82f6',
+                buttonText: 'Start Chatting',
+                buttonTextColor: 'white',
+                blurredBackgroundColor: 'rgba(0, 0, 0, 0.4)',
+                backgroundColor: '#1e293b'
             },
             chatWindow: {
                 showTitle: true,
                 showAgentMessages: true,
                 title: 'HoKoBot',
                 titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-                welcomeMessage: '👋 Welcome! I’m HoKoBot — your AI guide to Hosnieh’s career, projects, and skills. Ask me anything about her work, experience, or achievements!',
-                backgroundColor: '#111827',
-                height: 420,
+                welcomeMessage: '👋 Hi there! I’m your virtual guide to Hosnieh’s professional profile. I can walk you through her experience, projects, and skills, or answer specific questions about her background. What would you like to explore first?',
+                errorMessage: 'This is a custom error message',
+                backgroundColor: '#0f172a',
+                backgroundImage: '',
+                height: 400,
                 width: 400,
                 fontSize: 13,
                 starterPrompts: [
                     "What are her strongest technical skills?",
-                    "Tell me about her experience with AI or NLP",
-                    "What are her recent projects?"
+                    "What’s her work authorization status?"
                 ],
+                starterPromptFontSize: 13,
+                clearChatOnReload: false,
+                sourceDocsTitle: 'Sources:',
+                renderHTML: true,
                 botMessage: {
-                    backgroundColor: '#1f2937',
-                    textColor: '#e5e7eb',
-                    showAvatar: true,
-                    avatarSrc: 'bot_pic.png'
+                  backgroundColor: '#1e293b',
+                  textColor: '#e5e7eb',
+                  showAvatar: true,
+                  avatarSrc: 'bot_pic.png'
                 },
                 userMessage: {
-                    backgroundColor: '#3B81F6',
-                    textColor: '#ffffff',
-                    showAvatar: true,
-                    avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
+                  backgroundColor: '#3B81F6',
+                  textColor: '#ffffff',
+                  showAvatar: true,
+                  avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
                 },
                 textInput: {
-                    placeholder: 'Type your question here...',
-                    backgroundColor: '#1f2937',
+                    placeholder: 'Type your question',
+                    backgroundColor: '#1e293b',
                     textColor: '#e5e7eb',
-                    sendButtonColor: '#69a6ff'
-                }
+                    sendButtonColor: '#3B81F6',
+                    maxChars: 50,
+                    maxCharsWarningMessage: 'You exceeded the character limit. Please input less than 50 characters.',
+                    autoFocus: true,
+                    sendMessageSound: true,
+                    sendSoundLocation: 'send_message.mp3',
+                    receiveMessageSound: true,
+                    receiveSoundLocation: 'receive_message.mp3'
+                },
+                feedback: {
+                    color: '#e5e7eb'
+                },
+                dateTimeToggle: {
+                    date: true,
+                    time: true
+                },
             }
         }
     })
-  </script>
-</body>
+</script>
 </html>
